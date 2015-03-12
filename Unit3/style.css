@@ -1,0 +1,30 @@
+body {
+	background: rgba(0, 0, 0, .8);
+	color: #ff6600;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.slogan {
+	font-style: italic;
+}
+
+.offering{
+	color: #19FFFF;
+}
+
+a:link {
+	color: #19FFFF;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:visited {
+	color: #fff;
+}
