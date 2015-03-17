@@ -3,7 +3,7 @@ body {
 	background: #333333;
 	color: #ff6600;
 	font-family: 'Forum', serif;
-	font-size:16px;
+	font-size:18px;
 }
 section { }
 header {
@@ -24,7 +24,9 @@ h1 {
 	font-family: Helvetica, sans-serif;
 	font-size: 5em;
 }
-
+ul {
+	list-style-type:none;
+}
 li {
 	float:left;
 	color: #19FFFF;
