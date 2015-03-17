@@ -18,15 +18,15 @@ section#connect {
 	height: 2em;
 }
 h1 {
-	position: relative;
+	float:left;
 	padding-top: 1.5em;
 	padding-left: 0px;
-	font-family: "Helvetica", sans-serif;
-	font-size: 7vw;
+	font-family: Helvetica, sans-serif;
+	font-size: 5em;
 }
 
 li {
-	display: inline;
+	float:left;
 	color: #19FFFF;
 	font-size: .8em;
 	padding-left: .5em;
@@ -36,13 +36,9 @@ a {
 	color: #19FFFF;
 	text-decoration: none;
 }
-
-
-
 img {
 	border-radius: 50%;
 	width: 4em;
-	height: 4em;
 }
 section#social-icons img {
 	border-radius:0;
