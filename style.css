@@ -1,24 +1,22 @@
-:root{
-	font-size: calc(100vw / 50);
-}
-
+*{margin:0;padding:0;box-sizing:border-box;}
 body {
 	background: #333333;
 	color: #ff6600;
 	font-family: 'Forum', serif;
-	font-size: 5vw;
+	font-size:16px;
 }
-
+section { }
 section#splash {
 	padding: 2em 0em;
 }
-
-.logo {
-	float: left;
-	width:	6em;
-	height: 3em;	
+section#work {
+	padding: 3em;
 }
-
+section#connect {
+	padding:2em;
+	width: 2em;
+	height: 2em;
+}
 h1 {
 	position: relative;
 	padding-top: 1.5em;
@@ -34,23 +32,29 @@ li {
 	padding-left: .5em;
 }
 
-a:link {
+a {
 	color: #19FFFF;
 	text-decoration: none;
 }
 
-section#work {
-	padding: 3em;
-}
+
 
 img {
 	border-radius: 50%;
 	width: 4em;
 	height: 4em;
 }
-
-section#connect {
-	padding:2em;
-	width: 2em;
-	height: 2em;
+section#social-icons img {
+	border-radius:0;
+}
+img.logo {
+	float: left;
+	width: 6em;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
